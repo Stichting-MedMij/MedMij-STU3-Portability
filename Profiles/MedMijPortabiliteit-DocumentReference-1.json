@@ -1,0 +1,30 @@
+{
+  "resourceType": "StructureDefinition",
+  "url": "https://simplifier.net/NictizSTU3-Zib2017/DocumentReference.MedMijPortabiliteit",
+  "name": "MinimalDocumentReferenceMedMijPortabiliteit",
+  "baseDefinition": "https://simplifier.net/NictizSTU3-Zib2017/IHE.MHD.Minimal.DocumentReference",
+  "type": "DocumentReference",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "DocumentReference.class",
+        "path": "DocumentReference.class",
+		"short": "Bij voorkeur de code 'EXPORT' uit de opgegeven waardeset",
+  "definition": "Bij voorkeur de code 'EXPORT' als class-code wanneer het document een MedMij-portabiliteitsexport betreft.",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "http://decor.nictiz.nl/fhir/ValueSet/2.16.528.1.1023.11.2.3.11.10"
+        }
+      },
+      {
+        "id": "DocumentReference.type",
+        "path": "DocumentReference.type",
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "http://decor.nictiz.nl/fhir/ValueSet/2.16.528.1.1023.11.2.3.11.10"
+        }
+      }
+    ]
+  }
+}

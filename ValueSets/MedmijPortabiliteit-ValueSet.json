@@ -1,0 +1,99 @@
+{
+    "resourceType": "ValueSet",
+    "id": "2.16.528.1.1023.11.2.3.11.10",
+    "meta": {
+        "profile": [
+            "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+        ]
+    },
+    "extension": [
+        {
+            "url": "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+            "valuePeriod": {
+                "start": "2025-06-02"
+            }
+        }
+    ],
+    "url": "http://decor.nictiz.nl/fhir/ValueSet/2.16.528.1.1023.11.2.3.11.10",
+    "version": "2025-06-02T00:00:00",
+    "name": "MedMijPortabiliteitCodelijst",
+    "title": "MedMijPortabiliteitCodelijst",
+    "status": "active",
+    "experimental": true,
+    "description": "MedMijPortabiliteitCodelijst",
+    "immutable": false,
+    "compose": {
+        "include": [
+            {
+                "system": "urn:oid:2.16.528.1.1023.11.2.3.11.10",
+                "concept": [
+                    {
+                        "code": "EXPORT",
+                        "display": "Portability document",
+                        "designation": [
+                            {
+                                "language": "nl-NL",
+                                "value": "Portabiliteitsdocument"
+                            }
+                        ]
+                    },
+                    {
+                        "code": "REPORT",
+                        "display": "Portability report",
+                        "designation": [
+                            {
+                                "language": "nl-NL",
+                                "value": "Portabiliteitsrapport"
+                            }
+                        ]
+                    },
+                    {
+                        "code": "DOSSIER",
+                        "display": "Personal health dossier",
+                        "designation": [
+                            {
+                                "language": "nl-NL",
+                                "value": "Persoonlijk gezondheidsdossier"
+                            }
+                        ]
+                    },
+                    {
+                        "code": "ATTACHMENT",
+                        "display": "Attachment",
+                        "designation": [
+                            {
+                                "language": "nl-NL",
+                                "value": "Persoonlijk gezondheidsdossier bijlage"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "expansion": {
+        "total": 4,
+        "contains": [
+            {
+                "system": "urn:oid:2.16.528.1.1023.11.2.3.11.10",
+                "code": "EXPORT",
+                "display": "Portabiliteitsdocument"
+            },
+            {
+                "system": "urn:oid:2.16.528.1.1023.11.2.3.11.10",
+                "code": "REPORT",
+                "display": "Portabiliteitsrapport"
+            },
+            {
+                "system": "urn:oid:2.16.528.1.1023.11.2.3.11.10",
+                "code": "DOSSIER",
+                "display": "Persoonlijk gezondheidsdossier"
+            },
+            {
+                "system": "urn:oid:2.16.528.1.1023.11.2.3.11.10",
+                "code": "ATTACHMENT",
+                "display": "Persoonlijk gezondheidsdossier bijlage"
+            }
+        ]
+    }
+}
