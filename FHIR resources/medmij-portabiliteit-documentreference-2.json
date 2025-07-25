@@ -1,0 +1,41 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "medmij-portabiliteit-documentreference-2",
+  "meta": {
+    "lastUpdated": "2025-07-21T00:00:00+00:00",
+	"profile": [
+	  "http://nictiz.nl/fhir/StructureDefinition/IHE.MHD.Minimal.DocumentReference",
+	  "https://simplifier.net/NictizSTU3-Zib2017/DocumentReference.MedMijPortabiliteit"
+	]
+  },
+  "class": {
+    "coding": [
+      {
+        "system": "urn:oid:2.16.528.1.1023.11.2.3.11.10",
+        "code": "EXPORT",
+        "display": "Portabiliteitsdocument"
+      }
+	]
+  },
+  "type": {
+    "coding": [
+      {
+        "system": "urn:oid:2.16.528.1.1023.11.2.3.11.10",
+        "code": "DOSSIER",
+        "display": "Persoonlijk gezondheidsdossier"
+      }
+    ],
+    "text": "Document met samenvatting patiëntinformatie"
+  },
+  "subject": {
+    "reference": "Patient/medmij-bgz-test-patA"
+  },
+  "content": [
+    {
+      "attachment": {
+        "contentType": "application/pdf",
+        "url": "https://deoudepgo.nl/genereer_pdf?id=12345"
+      }
+    }
+  ]
+}
