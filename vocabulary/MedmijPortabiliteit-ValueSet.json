@@ -1,10 +1,14 @@
 {
     "resourceType": "ValueSet",
-    "id": "2.16.528.1.1023.11.2.3.11.10",
+    "id": "KoppelvlakPortability",
     "meta": {
         "profile": [
             "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
         ]
+    },
+    "text": {
+        "status": "empty",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">No narrative is provided for definitional resources. A human-readable rendering can be found in the implementation guide(s) where this resource is used.</div>"
     },
     "extension": [
         {
@@ -14,85 +18,36 @@
             }
         }
     ],
-    "url": "http://decor.nictiz.nl/fhir/ValueSet/2.16.528.1.1023.11.2.3.11.10",
-    "version": "2025-06-02T00:00:00",
-    "name": "MedMijPortabiliteitCodelijst",
-    "title": "MedMijPortabiliteitCodelijst",
-    "status": "active",
-    "experimental": true,
-    "description": "MedMijPortabiliteitCodelijst",
-    "immutable": false,
+    "url": "http://medmij.nl/fhir/ValueSet/KoppelvlakPortability",
+    "identifier": [
+        {
+            "use": "official",
+            "system": "urn:ietf:rfc:3986",
+            "value": "urn:oid:2.16.528.1.1023.11.2.3.11.10"
+        }
+    ],
+    "name": "KoppelvlakPortability",
+    "title": "KoppelvlakPortability ValueSet.",
+    "status": "draft",
+    "experimental": false,
+    "publisher": "MedMij",
+    "contact": [
+        {
+            "name": "MedMij",
+            "telecom": [
+                {
+                    "system": "email",
+                    "value": "info@medmij.nl",
+                    "use": "work"
+                }
+            ]
+        }
+    ],
+    "description": "ValueSet for indicating the type of document exchanged in the context of Koppelvlak.",
     "compose": {
         "include": [
             {
-                "system": "urn:oid:2.16.528.1.1023.11.2.3.11.10",
-                "concept": [
-                    {
-                        "code": "EXPORT",
-                        "display": "Portability document",
-                        "designation": [
-                            {
-                                "language": "nl-NL",
-                                "value": "Portabiliteitsdocument"
-                            }
-                        ]
-                    },
-                    {
-                        "code": "REPORT",
-                        "display": "Portability report",
-                        "designation": [
-                            {
-                                "language": "nl-NL",
-                                "value": "Portabiliteitsrapport"
-                            }
-                        ]
-                    },
-                    {
-                        "code": "DOSSIER",
-                        "display": "Personal health dossier",
-                        "designation": [
-                            {
-                                "language": "nl-NL",
-                                "value": "Persoonlijk gezondheidsdossier"
-                            }
-                        ]
-                    },
-                    {
-                        "code": "ATTACHMENT",
-                        "display": "Attachment",
-                        "designation": [
-                            {
-                                "language": "nl-NL",
-                                "value": "Persoonlijk gezondheidsdossier bijlage"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    "expansion": {
-        "total": 4,
-        "contains": [
-            {
-                "system": "urn:oid:2.16.528.1.1023.11.2.3.11.10",
-                "code": "EXPORT",
-                "display": "Portabiliteitsdocument"
-            },
-            {
-                "system": "urn:oid:2.16.528.1.1023.11.2.3.11.10",
-                "code": "REPORT",
-                "display": "Portabiliteitsrapport"
-            },
-            {
-                "system": "urn:oid:2.16.528.1.1023.11.2.3.11.10",
-                "code": "DOSSIER",
-                "display": "Persoonlijk gezondheidsdossier"
-            },
-            {
-                "system": "urn:oid:2.16.528.1.1023.11.2.3.11.10",
-                "code": "ATTACHMENT",
-                "display": "Persoonlijk gezondheidsdossier bijlage"
+                "system": "http://medmij.nl/fhir/CodeSystem/KoppelvlakPortability"
             }
         ]
     }
