@@ -1,6 +1,6 @@
 {
     "resourceType": "CodeSystem",
-    "id": "KoppelvlakPortability",
+    "id": "Portability",
     "text": {
         "status": "empty",
         "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">No narrative is provided for definitional resources. A human-readable rendering can be found in the implementation guide(s) where this resource is used.</div>"
@@ -13,16 +13,16 @@
             }
         }
     ],
-    "url": "http://medmij.nl/fhir/CodeSystem/KoppelvlakPortability",
+    "url": "http://medmij.nl/fhir/CodeSystem/Portability",
     "identifier": [
         {
             "use": "official",
             "system": "urn:ietf:rfc:3986",
-            "value": "urn:oid:2.16.528.1.1023.11.3.1.1.1"
+            "value": "urn:oid:2.16.528.1.1023.5.1.5"
         }
     ],
-    "name": "KoppelvlakPortability",
-    "title": "KoppelvlakPortability CodeSystem.",
+    "name": "Portability",
+    "title": "Portability CodeSystem.",
     "status": "draft",
     "experimental": false,
     "publisher": "MedMij",

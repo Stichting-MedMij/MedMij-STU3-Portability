@@ -5,14 +5,14 @@
     "lastUpdated": "2025-07-21T00:00:00+00:00",
     "profile": [
       "http://nictiz.nl/fhir/StructureDefinition/IHE.MHD.Minimal.DocumentReference",
-      "http://medmij.nl/fhir/StructureDefinition/kv-DocumentReference-Portability"
+      "http://medmij.nl/fhir/StructureDefinition/port-DocumentReference"
     ]
   },
   "status": "current",
   "class": {
     "coding": [
       {
-        "system": "http://medmij.nl/fhir/CodeSystem/KoppelvlakPortability",
+        "system": "http://medmij.nl/fhir/CodeSystem/Portability",
         "code": "EXPORT",
         "display": "Portabiliteitsdocument"
       }
@@ -21,7 +21,7 @@
   "type": {
     "coding": [
       {
-        "system": "http://medmij.nl/fhir/CodeSystem/KoppelvlakPortability",
+        "system": "http://medmij.nl/fhir/CodeSystem/Portability",
         "code": "REPORT",
         "display": "Portabiliteitsrapport"
       }
