@@ -43,7 +43,7 @@
             ]
         }
     ],
-    "description": "ValueSet for indicating the type of document exchanged in the context of Koppelvlak.",
+    "description": "ValueSet for indicating the type of portability document exchanged in the context of MedMij.",
     "compose": {
         "include": [
             {
