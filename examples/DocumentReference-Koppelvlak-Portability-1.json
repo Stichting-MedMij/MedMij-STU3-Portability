@@ -26,7 +26,7 @@
         "display": "Portabiliteitsrapport"
       }
     ],
-    "text": "Document met samenvatting patiëntinformatie"
+    "text": "Document met MedMij-portabiliteitsrapport waarin verwijzingen opgenomen naar aanbieders van patiëntinformatie"
   },
   "subject": {
     "reference": "Patient/medmij-bgz-test-patA"
