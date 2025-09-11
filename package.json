@@ -1,0 +1,21 @@
+{
+  "name": "medmij.fhir.nl.stu3.portability",
+  "version": "1.0.0-alpha.6",
+  "description": "Package of FHIR STU3 conformance resources for MedMij Portability version 1.0.0-alpha.6.",
+  "author": "MedMij",
+  "license": "CC0-1.0",
+  "title": "FHIR implementation of Portability",
+  "maintainers": [
+    {
+      "name": "MedMij"
+    }
+  ],
+  "dependencies": {
+    "hl7.fhir.r3.core": "3.0.2",
+    "nictiz.fhir.nl.stu3.zib2017": "2.3.0"
+  },
+  "fhirVersions": [
+    "3.0.1"
+  ],
+  "jurisdiction": "urn:iso:std:iso:3166#NL"
+}
