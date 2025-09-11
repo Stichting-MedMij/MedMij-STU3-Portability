@@ -38,7 +38,9 @@
         "path": "DocumentReference.type",
         "binding": {
           "strength": "required",
-          "valueSet": "http://medmij.nl/fhir/ValueSet/Portability"
+          "valueSetReference": {
+            "reference": "http://medmij.nl/fhir/ValueSet/Portability"
+          }
         }
       },
       {
